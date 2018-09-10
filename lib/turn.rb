@@ -17,6 +17,9 @@ def move(board, index, players_character="X")
   return board
 end  
 
+def turn 
+  
+end
 
 def valid_move?(board, index)
   def position_taken?(board, index)
