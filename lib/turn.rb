@@ -33,6 +33,7 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index, players_character = "X")
   else
+    
     turn(board)
   end
 end
